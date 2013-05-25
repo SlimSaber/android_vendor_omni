@@ -34,7 +34,9 @@ PRODUCT_COPY_FILES += \
     vendor/omni/prebuilt/bin/backuptool.sh:system/bin/backuptool.sh \
     vendor/omni/prebuilt/bin/backuptool.functions:system/bin/backuptool.functions \
     vendor/omni/prebuilt/bin/50-hosts.sh:system/addon.d/50-hosts.sh \
-    vendor/omni/prebuilt/bin/blacklist:system/addon.d/blacklist
+    vendor/omni/prebuilt/bin/blacklist:system/addon.d/blacklist \
+    vendor/omni/prebuilt/common/bin/99-backup.sh:system/addon.d/99-backup.sh \
+    vendor/omni/prebuilt/common/etc/backup.conf:system/etc/backup.conf
 
 # init.d support
 PRODUCT_COPY_FILES += \
