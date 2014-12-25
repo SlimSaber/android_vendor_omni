@@ -65,5 +65,8 @@ PRODUCT_COPY_FILES += \
 # Versioning
 -include vendor/omni/config/version.mk
 
+# Scripts
+FINISHER_SCRIPT := vendor/omni/tools/finisher
+
 # Add our overlays
 PRODUCT_PACKAGE_OVERLAYS += vendor/omni/overlay/common
