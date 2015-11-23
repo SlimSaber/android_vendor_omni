@@ -27,11 +27,11 @@ else
 ifeq ($(ROM_BUILDTIME_LOCAL),y)
     ROM_VERSION := $(PLATFORM_VERSION)-$(shell date +%Y%m%d-%H%M%z)-$(TARGET_PRODUCT_SHORT)-$(ROM_BUILDTYPE)
 else
-    ROM_VERSION := $(PLATFORM_VERSION)-$(shell date -u +%Y%m%d)-$(TARGET_PRODUCT_SHORT)-$(ROM_BUILDTYPE)
+    ROM_VERSION := $(TARGET_PRODUCT_SHORT)-$(PLATFORM_VERSION)-$(shell date -u +%Y%m%d)
 endif
 endif
 
 # Apply it to build.prop
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.modversion=OmniROM-$(ROM_VERSION) \
+    ro.modversion=SlimSaber-$(ROM_VERSION) \
     ro.omni.version=$(ROM_VERSION)
