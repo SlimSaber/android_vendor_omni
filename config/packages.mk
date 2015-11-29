@@ -9,7 +9,7 @@ endif
 PRODUCT_PACKAGES += \
     Apollo \
     MonthCalendarWidget \
-    OpenDelta \
+    SlimOTA \
     OmniSwitch
 
 ifneq ($(TARGET_NO_DSPMANAGER), true)
