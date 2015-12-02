@@ -7,7 +7,7 @@ endif
 
 # Additional apps
 PRODUCT_PACKAGES += \
-    Apollo \
+    Eleven \
     MonthCalendarWidget \
     SlimOTA \
     OmniSwitch
