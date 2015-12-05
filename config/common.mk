@@ -73,7 +73,7 @@ PRODUCT_COPY_FILES += \
 
 # Scripts
 FINISHER_SCRIPT := vendor/omni/tools/finisher
-#SQUISHER_SCRIPT := vendor/omni/tools/squisher
+SQUISHER_SCRIPT := vendor/omni/tools/squisher
 
 # Add our overlays
 PRODUCT_PACKAGE_OVERLAYS += vendor/omni/overlay/common
