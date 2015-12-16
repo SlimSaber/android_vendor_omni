@@ -30,19 +30,21 @@ PRODUCT_PACKAGES += \
 # Additional tools
 PRODUCT_PACKAGES += \
     bash \
-    e2fsck \
-    fsck.exfat \
     htop \
     lsof \
     mke2fs \
-    mkfs.exfat \
-    mount.exfat \
     nano \
     openvpn \
     powertop \
     tune2fs \
-    vim \
-    ntfsfix \
-    ntfs-3g \
-    mkntfs
+    vim
 
+# Filesystem
+PRODUCT_PACKAGES += \
+    e2fsck \
+    fsck.exfat \
+    mkfs.exfat \
+    mount.exfat \
+    mkfs.ntfs \
+    fsck.ntfs \
+    mount.ntfs
