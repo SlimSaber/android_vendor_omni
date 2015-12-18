@@ -65,6 +65,10 @@ PRODUCT_COPY_FILES += \
 #PRODUCT_COPY_FILES += \
 #    vendor/omni/prebuilt/app/DashClock.apk:system/app/DashClock.apk
 
+# Copy latinime for gesture typing
+PRODUCT_COPY_FILES += \
+    vendor/omni/prebuilt/common/lib/libjni_latinimegoogle.so:system/lib/libjni_latinimegoogle.so
+
 # Additional packages
 -include vendor/omni/config/packages.mk
 
