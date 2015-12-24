@@ -11,7 +11,8 @@ PRODUCT_PACKAGES += \
     MonthCalendarWidget \
     SlimOTA \
     OmniSwitch \
-    Chromium
+    Chromium \
+    OmniJaws
 
 ifneq ($(TARGET_NO_DSPMANAGER), true)
 PRODUCT_PACKAGES += \
