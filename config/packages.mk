@@ -12,7 +12,8 @@ PRODUCT_PACKAGES += \
     SlimOTA \
     OmniSwitch \
     Chromium \
-    OmniJaws
+    OmniJaws \
+    OmniStyle
 
 ifneq ($(TARGET_NO_DSPMANAGER), true)
 PRODUCT_PACKAGES += \
