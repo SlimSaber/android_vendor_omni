@@ -44,6 +44,10 @@ PRODUCT_COPY_FILES += \
     vendor/omni/prebuilt/common/bin/99-backup.sh:system/addon.d/99-backup.sh \
     vendor/omni/prebuilt/common/etc/backup.conf:system/etc/backup.conf
 
+# Backup Services whitelist
+PRODUCT_COPY_FILES += \
+    vendor/omni/prebuilt/etc/sysconfig/backup.xml:system/etc/sysconfig/backup.xml
+
 # init.d support
 PRODUCT_COPY_FILES += \
     vendor/omni/prebuilt/etc/init.d/00banner:system/etc/init.d/00banner \
